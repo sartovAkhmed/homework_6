@@ -1,0 +1,33 @@
+@import url(core.css);
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.appWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.appWrapper .block__user {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.toggle {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
